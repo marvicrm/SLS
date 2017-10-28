@@ -26,7 +26,6 @@ sls.begin(arg)
 ![img](https://i.imgur.com/qmoM254.png)
 
 ```javascript
-// will block the whole page
 // @param arg: optional, can be a callback/exception message for ajax
 sls.end(arg)
 ```
