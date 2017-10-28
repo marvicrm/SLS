@@ -26,7 +26,7 @@ sls.begin(arg)
 ![img](https://i.imgur.com/qmoM254.png)
 
 ```javascript
-// @param arg: optional, can be a callback/exception message for ajax
+// @param arg: optional, can be a callback/exception message from ajax
 sls.end(arg)
 ```
 ### Screenshot
