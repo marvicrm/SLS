@@ -29,5 +29,3 @@ sls.begin(arg)
 // @param arg: optional, can be a callback/exception message from ajax
 sls.end(arg)
 ```
-### Screenshot
-![img](https://i.imgur.com/2J6Ooqd.png)
