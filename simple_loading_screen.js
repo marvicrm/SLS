@@ -14,21 +14,21 @@
 		document.body.setAttribute('style',this.css()['body_css']);
 		document.body.appendChild(blocker);
 	},
-	end : function(text='') {
+	end : function(text) {
 		let element = document.getElementById(this.e);
 		element.innerHTML = text;
 		setTimeout(function(){
 			document.body.removeChild(element);
-		},1500);
+		},1500); 
 	},
 	// blocker css styling
-	css : function() {
+ 	css : function() {
 		let style = {
-			'blocker_css'	:	`color:#fff;font-size:25px;background:#000;opacity:0.8;
-						position:absolute;height:100%;width:100%;left:0px;top:0px;
-						text-align:center;padding-top:20%;z-index:999999999999999`,
-			'body_css'	:	`overflow:hidden;`
+			'blocker_css'	:	'color:#fff;font-size:25px;background:#000;opacity:0.8;\
+						position:absolute;height:100%;width:100%;left:0px;top:0px;\
+						text-align:center;padding-top:20%;z-index:999999999999999',
+			'body_css'	:	'overflow:hidden;'
 		}
 		return style;
-	} 
+	}  
  }
